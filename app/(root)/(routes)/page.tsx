@@ -1,6 +1,5 @@
 "use client"
 import React from "react";
-import Modal from "@/components/ui/modal";
 import { UseStoreModal } from "@/hooks/use-store-modal";
 
 export default function SetupPage() {
@@ -14,9 +13,5 @@ export default function SetupPage() {
     }
   }, [isOpen, onOpen]);
 
-  return (
-    <div className='p-4'>
-      Root Page
-    </div>
-  )
-}
+  return null;
+};
